@@ -27,10 +27,19 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": [ 
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/css/all.min.css",
+              "src/assets/css/custom.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [  
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/jquery.easing.min.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
